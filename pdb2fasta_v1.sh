@@ -1,6 +1,7 @@
 #! /bin/bash
 
-# 2012 - P. Poulain
+# The original version was written by Pierre Poulain (https://cupnet.net/pdb2fasta/)
+# This new version can extract the sequence of any specified chain.
 
 usage="""Usage: \$0 file.pdb \$2
 To extract sequences of all chains in the file.pdb, set \$2 to "all"; to exact
